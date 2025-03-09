@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import Header from "../components/user/Header";
 import Footer from "../components/user/Footer";
+import axios from "axios";
 
 const Home = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
