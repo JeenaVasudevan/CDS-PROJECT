@@ -36,12 +36,12 @@ const Home = () => {
                     {["Student ID", "Student Name", "Student Profession", "Gender", "Institute of Student", "Country", "State", "Primary Email Id", "Gmail Id"].map((field, index) => (
                         <div className="flex flex-col" key={index}>
                             <label className="font-medium">{field}</label>
-                            <input type="text" className="input input-bordered w-full text-black" />
+                            <input type="text" className="input input-bordered w-full text-black bg-white" />
                         </div>
                     ))}
                     <div className="flex flex-col">
                         <label className="font-medium">Date of Birth</label>
-                        <input type="date" className="input input-bordered w-full text-black" />
+                        <input type="date" className="input input-bordered w-full text-black bg-white" />
                     </div>
                     {["Primary Phone Number", "Secondary Phone Number", "Whatsapp Number", "Telegram Number"].map((field, index) => (
                         <div className="flex flex-col" key={index}>
@@ -57,7 +57,7 @@ const Home = () => {
                     {["Loyalty Member", "Loyalty Start Date", "Loyalty End Date"].map((field, index) => (
                         <div className="flex flex-col" key={index}>
                             <label className="font-medium">{field}</label>
-                            <input type={field.includes("Date") ? "date" : "text"} className="input input-bordered w-full text-black" />
+                            <input type={field.includes("Date") ? "date" : "text"} className="input input-bordered w-full text-black bg-white" />
                         </div>
                     ))}
                     {["Address", "Remark"].map((field, index) => (
