@@ -63,7 +63,7 @@ const Home = () => {
                     {["Address", "Remark"].map((field, index) => (
                         <div className="flex flex-col md:col-span-4" key={index}>
                             <label className="font-medium">{field}</label>
-                            <textarea className="textarea textarea-bordered w-full h-32 text-black"></textarea>
+                            <textarea className="textarea textarea-bordered w-full h-32 text-black bg-white"></textarea>
                         </div>
                     ))}
                 </div>
